@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="preload">
+    <header class="header">
+        <input type="checkbox" id="nav-btn">
+        <label for="nav-btn">
+            <div class="nav__button">
+                <span></span>
+                <span></span>
+            </div>
+        </label>  
+        <div class="nav__items">
+            <div class="nav__item">Home</div>
+            <div class="nav__item">Mac</div>
+            <div class="nav__item">iPhone</div>
+            <div class="nav__item">iPad</div>
+            <div class="nav__item">TV</div>
+        </div>
+    </header>
+    <script>
+        window.addEventListener('load', () => {
+            document.body.classList.remove('preload');
+        });
+    </script>
+</body>
+</html>
